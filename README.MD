@@ -24,8 +24,8 @@
 
 ## 项目结构
 目前项目囊括的结构有：
-- [数据结构](/tree/master/src/Data_Structure)
-- - [线性表](tree/master/src/Data_Structure/Vector)
+- [数据结构](/src/Data_Structure/)
+- - [线性表](/src/Data_Structure/Vector/)
   
 ## 安装
     TODO
