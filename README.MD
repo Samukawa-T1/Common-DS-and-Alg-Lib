@@ -39,4 +39,4 @@
 欢迎提交issue
 
 ## 开源协议
-[Apache Licence 2.0](LICENCE)© SAMUKAWA_T1
+[Apache Licence 2.0](LICENSE)© SAMUKAWA_T1
