@@ -26,6 +26,8 @@
 目前项目囊括的结构有：
 - [数据结构](/src/Data_Structure/)
 - - [线性表](/src/Data_Structure/Vector/)
+- - [链表](/src/Data_Structure/List/)
+- - - [单链表](/src/Data_Structure/List/SinglyLinkedList/)
   
 ## 安装
     TODO

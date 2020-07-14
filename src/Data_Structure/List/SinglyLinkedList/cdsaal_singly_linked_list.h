@@ -3,7 +3,7 @@
 
 #include <stddef.h>
 
-#include "cdsaal_list_node.h"
+#include "cdsaal_singly_linked_node.h"
 
 namespace cdsaal{
 

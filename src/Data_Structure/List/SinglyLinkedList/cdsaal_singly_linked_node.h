@@ -1,5 +1,5 @@
-#ifndef CDSAGL_SRC_DS_LIST_NODE_H
-#define CDSAGL_SRC_DS_LIST_NODE_H
+#ifndef CDSAGL_SRC_DS_LIST_LINGLY_LINKED_NODE_H
+#define CDSAGL_SRC_DS_LIST_LINGLY_LINKED_NODE_H
 #include <stddef.h>
 namespace cdsaal{
 
@@ -18,4 +18,4 @@ struct DoubleLinkedListNode
   DoubleListNode* NextNode = nullptr;
 };
 }
-#endif //CDSAGL_SRC_DS_LIST_NODE_H
+#endif //CDSAGL_SRC_DS_LIST_LINGLY_LINKED_NODE_H
