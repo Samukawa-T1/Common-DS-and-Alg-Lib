@@ -110,6 +110,18 @@ Vector<T>& Vector<T>::Sort(const size_t kBegin, const size_t kEnd,int (func)(con
       count++;
   Swap(kBegin, count);
 
+  auto small_index = kBegin, big_index = count;
+  while(self[small_index] < self[count])
+      ++small_index;
+    while(self[big_index] >= self[count])
+      ++big_index; 
+  while(!(small_index >= count && big_index >= kEnd))   
+    swap(small_index, big_index);
+    while(self[small_index] < self[count])
+      ++small_index;
+    while(self[big_index] >= self[count])
+      ++big_index;
+
   Sort(kBegin, count);
   Sort(count + 1, kEnd);
 }
