@@ -35,7 +35,8 @@ class Vector{
   Vector<T>& Swap(const size_t kLeft, const size_t kRight);
 
   size_t Search(T* data) const;
-  Vector<T>& Sort(const size_t kBegin, const size_t kEnd,int (func)(const T&,const T&));
+  Vector<T>& Sort
+  (const size_t kBegin, const size_t kEnd,int (func)(const T&,const T&));
   
   size_t GetSize() const;
   size_t GetCapacity() const;
