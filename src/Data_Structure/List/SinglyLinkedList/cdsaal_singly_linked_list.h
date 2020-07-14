@@ -20,6 +20,7 @@ class SinglyLinkedList{
  public:
   SinglyLinkedList();
   SinglyLinkedList(const SinglyLinkedList<T>& kOther);
+  ~SinglyLinkedList();
   SinglyLinkedList<T>& operator=(const SinglyLinkedList<T>& kOther);
   T& operator[](const size_t kIndex);
   SinglyLinkedList<T>& Append(const T& kData);

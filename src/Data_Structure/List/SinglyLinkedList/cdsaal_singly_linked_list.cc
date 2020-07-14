@@ -27,7 +27,10 @@ SinglyLinkedList<T>& SinglyLinkedList<T>::operator=
     Append(kOther[i]);
   }
 }
-
+template<typename T>
+SinglyLinkedList<T>::~SinglyLinkedList(){
+  Clear();
+}
 template<typename T>
 T& SinglyLinkedList<T>::operator[](const size_t kIndex){
   auto current = head_;
@@ -164,6 +167,7 @@ template<typename T>
 SinglyLinkedList<T>& SinglyLinkedList<T>::Clear(){
   auto current_next = head_->NextNode;
   delete head_;
+  head_ = nullptr;
   while(current_next){
     temp = current_next;
     current_next = current_next->NextNode;
