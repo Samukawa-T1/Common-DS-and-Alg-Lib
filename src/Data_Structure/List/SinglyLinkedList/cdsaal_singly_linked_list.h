@@ -1,3 +1,11 @@
+//
+//  @License: Apache-2.0
+//  @Author: Samukawa-T1 (chogenfran@icloud.com)
+//  @Content: Singly Linked List Template
+//  @Project: Common-DS-and-Alg-Lib (https://git.io/cdsaal)
+//  @Version: 0.01 Alpha
+//
+
 #ifndef CDSAGL_SRC_DS_LIST_SINGLY_LINKED_LIST_H
 #define CDSAGL_SRC_DS_LIST_SINGLY_LINKED_LIST_H
 
