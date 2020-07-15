@@ -1,19 +1,14 @@
-//
-//  @License: Apache-2.0
-//  @Author: Samukawa-T1 (chogenfran@icloud.com)
-//  @Content: Singly Linked List Template
-//  @Project: Common-DS-and-Alg-Lib (https://git.io/cdsaal)
-//  @Version: 0.01 Alpha
-//
+#ifndef CDSAAL_SRC_DS_LIST_DSAL_SINGLY_LINKED_LIST_H
+#define CDSAAL_SRC_DS_LIST_DSAL_SINGLY_LINKED_LIST_H
 
-#ifndef CDSAGL_SRC_DS_LIST_SINGLY_LINKED_LIST_H
-#define CDSAGL_SRC_DS_LIST_SINGLY_LINKED_LIST_H
-
+#ifndef CDSAAL_INCLUDE_STDDEF_H
+#define CDSAAL_INCLUDE_STDDEF_H
 #include <stddef.h>
+#endif //CDSAAL_INCLUDE_STDDEF_H
 
-#include "cdsaal_singly_linked_node.h"
+#include "dsal_singly_linked_node.h"
 
-namespace cdsaal{
+namespace dsal{
 
 template<typename T>
 class SinglyLinkedList{
@@ -51,4 +46,4 @@ class SinglyLinkedList{
 };
 }
 
-#endif //CDSAGL_SRC_DS_LIST_SINGLY_LINKED_LIST_H
+#endif //CDSAAL_SRC_DS_LIST_DSAL_SINGLY_LINKED_LIST_H

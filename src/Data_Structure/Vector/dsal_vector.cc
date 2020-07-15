@@ -1,6 +1,6 @@
-#include "cdsaal_vector.h"
+#include "dsal_vector.h"
 
-namespace cdsaal{
+namespace dsal{
 
 template<typename T>
 Vector<T>::Vector():Vector(DEFAULT_SIZE){};
@@ -106,7 +106,7 @@ Vector<T>& Vector<T>::Sort(const size_t kBegin, const size_t kEnd,int (func)(con
   size_t index = kBegin;
   int count = 0
   for(; index <= kEnd; index++)
-    if(func(self[0], self[index]) == 1)
+    if(func(self[kBegin], self[index]) == 1)
       count++;
   Swap(kBegin, count);
 

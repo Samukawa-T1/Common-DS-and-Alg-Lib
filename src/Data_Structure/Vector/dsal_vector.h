@@ -1,19 +1,15 @@
-//
-//  @License: Apache-2.0
-//  @Author: Samukawa-T1 (chogenfran@icloud.com)
-//  @Content: Basic Vector Template
-//  @Project: Common-DS-and-Alg-Lib (https://git.io/cdsaal)
-//  @Version: 0.01 Alpha
-//
+#ifndef CDSAAL_SRC_DS_DSAL_VECTOR_H
+#define CDSAAL_SRC_DS_DSAL_VECTOR_H
 
-#ifndef CDSAGL_SRC_DS_VECTOR_H
-#define CDSAGL_SRC_DS_VECTOR_H
-
+#ifndef CDSAAL_INCLUDE_STDDEF_H
+#define CDSAAL_INCLUDE_STDDEF_H
 #include <stddef.h>
+#endif //CDSAAL_INCLUDE_STDDEF_H
+
 #define DEFAULT_SIZE 16
 #define EXBAND_FACTOR 1.5
 
-namespace cdsaal{
+namespace dsal{
 
 template<typename T>
 class Vector{
@@ -53,4 +49,4 @@ class Vector{
 
 }
 
-#endif // CDSAGL_SRC_DS_VECTOR_H
+#endif // CDSAAL_SRC_DS_DSAL_VECTOR_H
